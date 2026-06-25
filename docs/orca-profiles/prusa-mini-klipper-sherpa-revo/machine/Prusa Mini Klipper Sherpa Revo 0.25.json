@@ -1,0 +1,30 @@
+{
+  "type": "machine",
+  "name": "Prusa Mini Klipper Sherpa Revo 0.25",
+  "inherits": "Original Prusa MINI & MINI+ 0.25 nozzle",
+  "from": "User",
+  "is_custom_defined": "0",
+  "version": "2.3.1.10",
+  "printer_settings_id": "Prusa Mini Klipper Sherpa Revo 0.25",
+  "gcode_flavor": "klipper",
+  "host_type": "octoprint",
+  "print_host": "",
+  "nozzle_diameter": [
+    "0.25"
+  ],
+  "retraction_length": [
+    "0.35"
+  ],
+  "retraction_minimum_travel": [
+    "1.5"
+  ],
+  "retraction_speed": [
+    "30"
+  ],
+  "deretraction_speed": [
+    "20"
+  ],
+  "machine_start_gcode": "START_PRINT BED_TEMP=[bed_temperature_initial_layer_single] EXTRUDER_TEMP=[nozzle_temperature_initial_layer] SHEET=TEXTURED_PLA",
+  "machine_end_gcode": "END_PRINT"
+}
+

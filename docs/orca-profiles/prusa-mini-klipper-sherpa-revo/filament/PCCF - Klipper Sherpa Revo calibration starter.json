@@ -1,0 +1,30 @@
+{
+  "type": "filament",
+  "name": "PCCF - Klipper Sherpa Revo calibration starter",
+  "inherits": "Generic PC @System",
+  "from": "User",
+  "is_custom_defined": "0",
+  "version": "2.3.1.10",
+  "filament_settings_id": [
+    "PCCF - Klipper Sherpa Revo calibration starter"
+  ],
+  "filament_type": [
+    "PC"
+  ],
+  "filament_max_volumetric_speed": [
+    "5"
+  ],
+  "nozzle_temperature": [
+    "270"
+  ],
+  "nozzle_temperature_initial_layer": [
+    "275"
+  ],
+  "textured_plate_temp": [
+    "105"
+  ],
+  "textured_plate_temp_initial_layer": [
+    "105"
+  ],
+  "notes": "Conservative starter only for ObXidian/hardened nozzle. Dry filament, enclosure stability, adhesion/release, fan, PA, and flow must be calibrated."
+}

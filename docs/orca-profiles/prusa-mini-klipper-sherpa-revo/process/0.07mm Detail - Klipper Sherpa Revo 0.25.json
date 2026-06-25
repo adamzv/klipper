@@ -1,0 +1,17 @@
+{
+  "type": "process",
+  "name": "0.07mm Detail - Klipper Sherpa Revo 0.25",
+  "inherits": "0.07mm DETAIL @MINIIS 0.25 - MINIATURES",
+  "from": "User",
+  "is_custom_defined": "0",
+  "version": "2.3.1.10",
+  "print_settings_id": "0.07mm Detail - Klipper Sherpa Revo 0.25",
+  "line_width": "0.28",
+  "outer_wall_speed": "15",
+  "inner_wall_speed": "25",
+  "sparse_infill_speed": "35",
+  "outer_wall_acceleration": "400",
+  "travel_acceleration": "900",
+  "notes": "Starter only: tune PA, flow ratio, first layer, and max volumetric flow."
+}
+

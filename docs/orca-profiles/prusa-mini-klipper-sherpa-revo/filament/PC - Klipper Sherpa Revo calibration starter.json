@@ -1,0 +1,31 @@
+{
+  "type": "filament",
+  "name": "PC - Klipper Sherpa Revo calibration starter",
+  "inherits": "Generic PC @System",
+  "from": "User",
+  "is_custom_defined": "0",
+  "version": "2.3.1.10",
+  "filament_settings_id": [
+    "PC - Klipper Sherpa Revo calibration starter"
+  ],
+  "filament_type": [
+    "PC"
+  ],
+  "filament_max_volumetric_speed": [
+    "6"
+  ],
+  "nozzle_temperature": [
+    "265"
+  ],
+  "nozzle_temperature_initial_layer": [
+    "270"
+  ],
+  "textured_plate_temp": [
+    "105"
+  ],
+  "textured_plate_temp_initial_layer": [
+    "105"
+  ],
+  "notes": "Conservative starter only. Dry filament, enclosure stability, adhesion/release, fan, PA, and flow must be calibrated."
+}
+

@@ -1,0 +1,15 @@
+{
+  "type": "process",
+  "name": "0.20mm Balanced - Daily - Klipper Sherpa Revo 0.6",
+  "inherits": "0.20mm Balanced - Daily @MINIIS 0.6",
+  "from": "User",
+  "is_custom_defined": "0",
+  "version": "2.3.1.10",
+  "print_settings_id": "0.20mm Balanced - Daily - Klipper Sherpa Revo 0.6",
+  "line_width": "0.72",
+  "outer_wall_speed": "40",
+  "inner_wall_speed": "75",
+  "sparse_infill_speed": "100",
+  "outer_wall_acceleration": "1100"
+}
+

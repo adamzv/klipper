@@ -1,0 +1,33 @@
+{
+  "type": "filament",
+  "name": "PETG - Klipper Sherpa Revo starter",
+  "inherits": "Generic PETG @System",
+  "from": "User",
+  "is_custom_defined": "0",
+  "version": "2.3.1.10",
+  "filament_settings_id": [
+    "PETG - Klipper Sherpa Revo starter"
+  ],
+  "filament_type": [
+    "PETG"
+  ],
+  "filament_max_volumetric_speed": [
+    "12"
+  ],
+  "nozzle_temperature": [
+    "240"
+  ],
+  "nozzle_temperature_initial_layer": [
+    "245"
+  ],
+  "textured_plate_temp": [
+    "85"
+  ],
+  "textured_plate_temp_initial_layer": [
+    "85"
+  ],
+  "pressure_advance": [
+    "0.042"
+  ]
+}
+

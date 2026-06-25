@@ -1,0 +1,33 @@
+{
+  "type": "filament",
+  "name": "TPU 95A - Klipper Sherpa Revo starter",
+  "inherits": "Generic TPU @System",
+  "from": "User",
+  "is_custom_defined": "0",
+  "version": "2.3.1.10",
+  "filament_settings_id": [
+    "TPU 95A - Klipper Sherpa Revo starter"
+  ],
+  "filament_type": [
+    "TPU"
+  ],
+  "filament_max_volumetric_speed": [
+    "8"
+  ],
+  "nozzle_temperature": [
+    "225"
+  ],
+  "nozzle_temperature_initial_layer": [
+    "230"
+  ],
+  "textured_plate_temp": [
+    "50"
+  ],
+  "textured_plate_temp_initial_layer": [
+    "50"
+  ],
+  "pressure_advance": [
+    "0"
+  ]
+}
+

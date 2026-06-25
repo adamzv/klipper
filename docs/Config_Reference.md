@@ -4548,8 +4548,8 @@ Support for a display attached to the micro-controller.
 [display]
 lcd_type:
 #   The type of LCD chip in use. This may be "hd44780", "hd44780_spi",
-#   "aip31068_spi", "st7920", "emulated_st7920", "uc1701", "ssd1306", or
-#   "sh1106".
+#   "aip31068_spi", "st7920", "emulated_st7920", "uc1701",
+#   "st7789v", "ssd1306", or "sh1106".
 #   See the display sections below for information on each type and
 #   additional parameters they provide. This parameter must be
 #   provided.
@@ -4768,6 +4768,39 @@ a0_pin:
 #contrast:
 #   The contrast to set. The value may range from 0 to 63 and the
 #   default is 40.
+...
+```
+
+#### st7789v display
+
+Information on configuring ST7789V 240x320 color LCD displays, such as
+the stock Prusa Mini/Mini+ display connected to the Buddy board.
+
+```
+[display]
+lcd_type: st7789v
+#   Set to "st7789v" for ST7789V displays.
+cs_pin:
+rs_pin:
+rst_pin:
+#   The pins connected to the chip select, register select/data-command,
+#   and reset lines. These parameters must be provided.
+#spi_speed:
+#spi_bus:
+#spi_software_sclk_pin:
+#spi_software_mosi_pin:
+#spi_software_miso_pin:
+#   The SPI bus configuration. See the "common SPI settings" section
+#   for a description of the parameters that start with "spi_".
+#columns: 20
+#rows: 4
+#   The size of the text/menu area to draw on the display. The default
+#   is 20 columns by 4 rows.
+#x_offset:
+#y_offset:
+#   The pixel offset of the text/menu area. The default centers the
+#   configured columns horizontally and places the rows near the bottom
+#   of the 240x320 screen.
 ...
 ```
 

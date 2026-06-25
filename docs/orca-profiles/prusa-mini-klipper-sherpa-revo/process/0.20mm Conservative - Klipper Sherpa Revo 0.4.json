@@ -1,0 +1,17 @@
+{
+  "type": "process",
+  "name": "0.20mm Conservative - Klipper Sherpa Revo 0.4",
+  "inherits": "0.20mm Standard @MINIIS 0.4",
+  "from": "User",
+  "is_custom_defined": "0",
+  "version": "2.3.1.10",
+  "print_settings_id": "0.20mm Conservative - Klipper Sherpa Revo 0.4",
+  "line_width": "0.45",
+  "outer_wall_speed": "25",
+  "inner_wall_speed": "45",
+  "sparse_infill_speed": "70",
+  "outer_wall_acceleration": "700",
+  "travel_acceleration": "1250",
+  "notes": "Starter only: tune PA, flow ratio, first layer, and max volumetric flow."
+}
+
