@@ -48,6 +48,11 @@ config, then adjust:
 - Sherpa `rotation_distance` after calibration.
 - PID values after hotend and bed PID tuning.
 
+The stock Mini LCD/jogwheel config is intentionally separated into
+`config/prusa-mini-stock-lcd.cfg`. On a Raspberry Pi Zero W, the LCD/menu path
+can overload Klipper during homing and trigger `Timer too close`; validate
+motion from Mainsail/Fluidd before enabling the optional include.
+
 ## Firmware Build
 
 Run:
@@ -108,8 +113,10 @@ an `IFCNT` UART error.
 4. Run `STEPPER_BUZZ STEPPER=stepper_x`, `stepper_y`, `stepper_z`, and
    `extruder` without filament loaded.
 5. Confirm endstops/probe with `QUERY_ENDSTOPS`.
-6. Confirm the stock LCD initializes and shows the Klipper status screen.
-7. Confirm jogwheel direction and click. If one detent skips or requires two
+6. Keep the stock LCD include disabled until homing and heater checks pass.
+7. If enabling `prusa-mini-stock-lcd.cfg`, confirm the stock LCD initializes
+   and shows the Klipper status screen.
+8. Confirm jogwheel direction and click. If one detent skips or requires two
    clicks, change `encoder_steps_per_detent` between `4` and `2`. If direction
    is reversed, swap the two `encoder_pins`.
 
