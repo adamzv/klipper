@@ -1,0 +1,16 @@
+prusa-mini-sherpa-revo-klipper-migration
+f60ade07353b39c1c7c7a199e4d3233e103a8225
+active
+active
+Linux mini-klipper 6.18.34+rpt-rpi-v6 #1 Raspbian 1:6.18.34-1+rpt1 (2026-06-09) armv6l GNU/Linux
+PRETTY_NAME="Raspbian GNU/Linux 13 (trixie)"
+NAME="Raspbian GNU/Linux"
+VERSION_ID="13"
+VERSION="13 (trixie)"
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.4
+ID=raspbian
+ID_LIKE=debian
+HOME_URL="http://www.raspbian.org/"
+SUPPORT_URL="http://www.raspbian.org/RaspbianForums"
+BUG_REPORT_URL="http://www.raspbian.org/RaspbianBugs"
